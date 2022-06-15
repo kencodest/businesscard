@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './ken.png'
+import image from './ken.jpg'
 import logo from './logo.svg'
 // import image from './bill-gates.png'
 import { HiMail } from "react-icons/hi";

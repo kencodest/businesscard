@@ -155,11 +155,18 @@ body {
     margin-bottom: 1rem;
     padding: 1rem;
     text-align: center;
-    text-transform: uppercase;
     font-style: italic;
     color: #fff;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover{
+    text-decoration: none;
 }
 
 @keyframes logo-spin {
