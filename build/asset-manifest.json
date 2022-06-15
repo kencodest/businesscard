@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/businesscard/static/css/main.44d748b8.css",
-    "main.js": "/businesscard/static/js/main.28cf195b.js",
+    "main.css": "/businesscard/static/css/main.ebb419ac.css",
+    "main.js": "/businesscard/static/js/main.bdb637c2.js",
     "static/js/787.f3d7924f.chunk.js": "/businesscard/static/js/787.f3d7924f.chunk.js",
-    "static/media/ken.png": "/businesscard/static/media/ken.247906ce6574db19ef33.png",
+    "static/media/ken.jpg": "/businesscard/static/media/ken.d7a281c0bd5269dc5870.jpg",
     "static/media/logo.svg": "/businesscard/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/businesscard/index.html",
-    "main.44d748b8.css.map": "/businesscard/static/css/main.44d748b8.css.map",
-    "main.28cf195b.js.map": "/businesscard/static/js/main.28cf195b.js.map",
+    "main.ebb419ac.css.map": "/businesscard/static/css/main.ebb419ac.css.map",
+    "main.bdb637c2.js.map": "/businesscard/static/js/main.bdb637c2.js.map",
     "787.f3d7924f.chunk.js.map": "/businesscard/static/js/787.f3d7924f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d748b8.css",
-    "static/js/main.28cf195b.js"
+    "static/css/main.ebb419ac.css",
+    "static/js/main.bdb637c2.js"
   ]
 }
