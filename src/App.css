@@ -156,13 +156,13 @@ body {
     padding: 1rem;
     text-align: center;
     font-style: italic;
-    color: #fff;
+    color: #F5F5F5;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
 }
 
 .footer a {
-    color: #fff;
+    color: #F3BF99;;
 }
 
 .footer a:hover{
