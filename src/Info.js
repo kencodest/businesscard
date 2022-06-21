@@ -3,7 +3,7 @@ import image from './ken.jpg'
 import logo from './logo.svg'
 // import image from './bill-gates.png'
 import { HiMail } from "react-icons/hi";
-import { FaLinkedin } from "react-icons/fa"
+import { FaLink, FaLinkedin } from "react-icons/fa"
 
 
 function Info() {
@@ -17,7 +17,10 @@ function Info() {
           <img src={logo} alt="react-logo" />
           <h3>Frontend Developer</h3>
         </div>
-        <a href="https://kenmuia.me/" target="_blank">kenmuia.me</a>
+        <div className='info--link'>
+          < FaLink className='icon'/>
+          <a href="https://kenmuia.me/" target="_blank">kenmuia.me</a>
+        </div>
         <div className='info--buttons'>
           <div className='info--email'> 
             <HiMail size="1.3rem"/>

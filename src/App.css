@@ -5,26 +5,23 @@
 
 body {
     background: #23252C;
+    padding: 1em;
 }
 
 .app {
     max-width: 400px;
+    min-height: 100vh;
     margin: 0 auto;
     margin-top: 1rem;
-    /* border-bottom: 2px solid white; */
     background: #1A1B21;
-    /* padding: 2rem; */
 }
 
 .info--image {
-    width: 400px;
-    height: 330px;
-    /* border: 2px solid red; */
+    max-width: 100%;
 }
 
 .info--image > img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
@@ -44,13 +41,14 @@ body {
 
 
 .info--sub-title{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    position: relative;
 }
 
 .info--sub-title > img {
-    width: 53px;
+    position: absolute;
+    left: -2.5em;
+    bottom: 0.5em;
+    width: 45px;
     pointer-events: none;
     animation: logo-spin 9s infinite  linear;
 }
@@ -64,11 +62,26 @@ body {
     /* border: 1px solid red; */
 }
 
-.info > a {
+
+.info--link {
+    display: flex;
+    position: relative;
+}
+
+
+.info--link .icon {
+    position: absolute;
+    bottom: 2.4em;
+    left: -1.3em;
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+.info--link > a {
     font-weight: 400;
     color: #F5F5F5;
-    margin-bottom: 1rem;
-    text-decoration: none;
+    margin-bottom: 2rem;
     cursor: pointer;
 }
 
@@ -77,11 +90,12 @@ body {
     text-decoration: underline;
 }
 
+
 .info--buttons {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .info--email {
@@ -125,7 +139,7 @@ body {
 
 .about,
 .interests {
-    width: 350px;
+    padding: 1.5em;
     margin: 0 auto;
 }
 
@@ -134,16 +148,15 @@ body {
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 150%;
-    /* or 24px */
+    text-align: center;
     color: #F5F5F5;
 }
 
 .about > p,
 .interests > p {
-    margin-bottom: 2rem;
     font-weight: 400;
     font-size: .9rem;
-    line-height: 150%;
+    line-height: 1.3;
     /* or 15px */
     color: #DCDCDC;
 }
@@ -152,21 +165,21 @@ body {
     display: flex;
     gap: 30px;
     justify-content: center;
-    margin-bottom: 1rem;
     padding: 1rem;
     text-align: center;
-    font-style: italic;
     color: #F5F5F5;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
 }
 
 .footer a {
-    color: #F3BF99;;
+    color: #F3BF99;
+    font-weight: bold;
 }
 
 .footer a:hover{
-    text-decoration: none;
+    font-size: 1.05rem;
+    transition: 0.3s ease-in-out;
 }
 
 @keyframes logo-spin {
@@ -178,3 +191,4 @@ body {
         transform: rotate(360deg)
     }
 }
+
